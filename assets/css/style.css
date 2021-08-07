@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul, li, a {
@@ -15,11 +17,26 @@ ul, li, a {
 }
 
 .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   position: absolute;
-  top: -6rem;
-  padding: 0 1rem;
-  transition: all ease-in-out 800ms;
+  top: -13rem;
+  padding: 1rem;
+  transition: all ease-in-out 850ms;
+  background: #F9F9F9;
+}
+
+.links li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.links a {
+  font-size: 1.25rem;
 }
 
 .mobile_header {
@@ -35,6 +52,17 @@ ul, li, a {
 	background: #D6000D;
 }
 
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+  background: #D6000D;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 .toggle {
   cursor: pointer;
 }
@@ -48,13 +76,22 @@ ul, li, a {
 }
 
 .active_menu {
-	top: 4.5rem;
+	top: 4.25rem;
+}
+
+.logo {
+  color: #FFFFFF;
 }
 
 @media (min-width: 768px) {
   ul, li, a {
     display: flex;
     align-items: center;
+  }
+
+  button {
+    padding: 0.5rem 2.25rem;
+    margin: 0 0 0 2.5rem;
   }
 
   .mobile {
@@ -74,18 +111,6 @@ ul, li, a {
 
   .desktop_header li {
     margin: 0 0 0 2.5rem;
-  }
-
-  .desktop_header button {
-    padding: 0.5rem 2.25rem;
-    margin: 0 0 0 2.5rem;
-    border-radius: 0.25rem;
-    outline: none;
-    border: none;
-    background: #D6000D;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 1rem;
   }
 
   .logo h1 {
