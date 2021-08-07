@@ -1,73 +1,55 @@
 <br />
 <p align="center">
-  <a href="http://www.freepik.com">
+  <a>
     <img src="https://i.ibb.co/stqTkc6/video-call.png" alt="Logo" width="250" height="200">
   </a>
 
-  <h3 align="center">Codar.</h3>
+  <h3 align="center">Codar</h3>
 
   <p align="center">
-    Site de uma empresa que desenvolve sites
+    Website of a company that develops websites
        <br />
     <br />
-    <a href="https://github.com/Lorenalgm/codar">Desafio</a>
-    ·
-    <a href="https://www.linkedin.com/in/lorenagmontes/">Contato</a>
   </p>
 </p>
 
-## Índice
+## Index
 
-* [Devchallenge](#devchallenge) 
-* [Desafio](#desafio)
 * [Techs](#techs)
-* [Como começar](#como-começar)
-* [Dicas](#dicas)
-  * [Cores](#cores)
-  * [Modelo](#modelo)
-  * [Imagens](#imagens)
-  * [Tipo de fonte](#tipo-de-fonte)
-* [Compartilhe](#compartilhe)
-
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador!
-
-# Desafio
-Seu desafio é criar uma página sobre uma empresa que desenvolve sites. O modelo final está disponível na pasta "design"
+* [Tools](#tools)
+* [Clues](#clues)
+  * [Model](#model)
+  * [Images](#images)
+  * [Font type](#font-type)
 
 <img src="https://i.ibb.co/2gB9Hkc/codar-mobile.png" width="380" height="380">
 <img src="https://i.ibb.co/wpnzvcs/codar-desktop.jpg" width="580" height="380">
 
 # Techs: 
 HTML<br>
-CSS
+CSS<br>
+CSS Grid e Flexbox<br>
+JavaScript
 
-# Como começar:
-1 - Use esse template ou clone esse repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade :)<br>
+# Tools:
+For icons, it is recommended to use a library such as Font Awesome
 
-# Requisitos:
-- Sua página deve se parecer o mais próximo possível ao modelo que está disponível na pasta "design"<br>
-- Sua página deve ser responsiva
+You can install using npm install or use it from cdn
 
-# Dicas
-## Cores:
-Vermelho: #D6000D
+```npm i font-awesome```
 
-## Modelo:
-O modelo está disponível na pasta `./design`<br>
+```https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css```
 
-## Imagens
-As imagens utilizadas estão disponíveis na pasta `./assets`<br>
-Para os ícones, é recomendada a utilização de uma biblioteca, como o Font Awesome
+Any questions, consult the documentation <a href="https://fontawesome.com/start"> Here </a>
 
-## Tipo de fonte:
+# Clues
+## Model:
+The layout is available in the folder `./design`<br>
+
+## Images
+The images used are available in the folder `./assets`<br>
+
+## Font type:
 - Roboto
 
-# Compartilhe!
-Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
-Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
-
-Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
+Layout created by <a href="https://devchallenge.now.sh/">Devchallenge</a> :)
